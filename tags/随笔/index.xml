@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>随笔 on 清风不似明月</title>
+    <link>https://fushenghong.github.io/tags/%E9%9A%8F%E7%AC%94/</link>
+    <description>Recent content in 随笔 on 清风不似明月</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Sep 2022 12:47:15 +0800</lastBuildDate><atom:link href="https://fushenghong.github.io/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决hugo搭建博客，头像上传问题</title>
+      <link>https://fushenghong.github.io/post/%E8%A7%A3%E5%86%B3hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%A4%B4%E5%83%8F%E4%B8%8A%E4%BC%A0%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 19 Sep 2022 12:47:15 +0800</pubDate>
+      
+      <guid>https://fushenghong.github.io/post/%E8%A7%A3%E5%86%B3hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%A4%B4%E5%83%8F%E4%B8%8A%E4%BC%A0%E9%97%AE%E9%A2%98/</guid>
+      <description> 问题描述：在用hugo搭建博客的过程中，发现头像无法在web端显示出来。
+解决方案：
+先删除myblog&amp;ndash;&amp;gt;themes&amp;ndash;&amp;gt;m10c&amp;ndash;&amp;gt;static文件夹下的用户头像，注：m10c是我们下载的主题 在网上下载自己喜欢的头像 将下载好的头像放在static文件夹即可。 </description>
+    </item>
+    
+  </channel>
+</rss>

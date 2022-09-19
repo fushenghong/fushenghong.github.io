@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>学生信息管理系统 // 清风不似明月</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.104.0-DEV" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="洪富生" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://fushenghong.github.io/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="学生信息管理系统"/>
+<meta name="twitter:description" content=""/>
+
+    <meta property="og:title" content="学生信息管理系统" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fushenghong.github.io/post/%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-09-19T09:52:10+08:00" />
+<meta property="article:modified_time" content="2022-09-19T09:52:10+08:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://fushenghong.github.io"><img class="app-header-avatar" src="/avatar.jpg" alt="洪富生" /></a>
+      <h1>清风不似明月</h1>
+      <p>哈喽，大家好，我来自周口市。目前正在学习golang，希望结识对golang感兴趣的小伙伴，大家一起交流学习。</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/fushenghong" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://blog.csdn.net/qq_45200189?type=blog" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">学生信息管理系统</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Sep 19, 2022
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          3 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://fushenghong.github.io/tags/golang%E5%B0%8F%E9%A1%B9%E7%9B%AE/">golang小项目</a>
+              <a class="tag" href="https://fushenghong.github.io/tags/%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">学生信息管理系统</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h4 id="学生信息管理系统">学生信息管理系统</h4>
+<p>main：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>   <span style="color:#e6db74">&#34;mysql_learn/service&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">实现一个学生信息管理系统
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">学生信息：学号
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      姓名
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      年龄
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      班级
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">系统面板：
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">----------欢迎使用学生信息管理系统----------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">1、增加学生信息
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">2、删除学生信息
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">3、修改学生信息
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   1、修改学生姓名
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   2、修改学生年龄
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   3、修改学生班级
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">4、查看学生信息
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   1、查看单个学生的信息
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   2、查看所有学生的信息
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">5、退出系统
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">-----------------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">*/</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">service</span>.<span style="color:#a6e22e">ConnectDatabase</span>() <span style="color:#75715e">//连接数据库
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   <span style="color:#66d9ef">for</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">service</span>.<span style="color:#a6e22e">ShowMenu</span>()                             <span style="color:#75715e">//功能菜单
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#a6e22e">num</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">service</span>.<span style="color:#a6e22e">ChoiceNumberExecutiveFunction</span>() <span style="color:#75715e">//选择数字
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#a6e22e">service</span>.<span style="color:#a6e22e">NumCorrespondOperate</span>(<span style="color:#a6e22e">num</span>)              <span style="color:#75715e">//执行数字对应的函数
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>service：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">service</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>   <span style="color:#e6db74">&#34;database/sql&#34;</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">_</span> <span style="color:#e6db74">&#34;github.com/go-sql-driver/mysql&#34;</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#e6db74">&#34;log&#34;</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#e6db74">&#34;mysql_learn/template&#34;</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#e6db74">&#34;os&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">db</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">sql</span>.<span style="color:#a6e22e">DB</span> <span style="color:#75715e">//定义一个数据库对象的全局变量
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// ShowMenu 功能面板
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">ShowMenu</span>() {
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;----------欢迎使用学生信息管理系统----------&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;1、增加学生信息&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;2、删除学生信息&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;3、修改学生信息&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;4、查看学生信息&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;5、退出系统&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;-----------------------------------------&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// ChoiceNumberExecutiveFunction 选择数字对应的功能
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">ChoiceNumberExecutiveFunction</span>() <span style="color:#66d9ef">int</span> {
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入数字，系统来执行该数字对应的功能&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">inputNumber</span> <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">inputNumber</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">inputNumber</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// NumCorrespondOperate 数字对应操作
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">NumCorrespondOperate</span>(<span style="color:#a6e22e">num</span> <span style="color:#66d9ef">int</span>) {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">switch</span> <span style="color:#a6e22e">num</span> {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">//增
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#a6e22e">AddData</span>()
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">2</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">//删
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#a6e22e">DeleteData</span>()
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">3</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">//改
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#a6e22e">UpdateData</span>()
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">4</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">//查
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#a6e22e">LookStudentMessage</span>()
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">5</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Exit</span>(<span style="color:#ae81ff">1</span>) <span style="color:#75715e">//退出系统
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// ConnectDatabase 数据库的连接
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">ConnectDatabase</span>() {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">err</span> <span style="color:#66d9ef">error</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">dsn</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;root:123456@tcp(127.0.0.1:3306)/go_db?charset=utf8mb4&amp;parseTime=True&#34;</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">db</span>, <span style="color:#a6e22e">err</span> = <span style="color:#a6e22e">sql</span>.<span style="color:#a6e22e">Open</span>(<span style="color:#e6db74">&#34;mysql&#34;</span>, <span style="color:#a6e22e">dsn</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;数据库连接发生错误，err：&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">//尝试与数据库建立连接，校验dsn是否正确。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   <span style="color:#a6e22e">err</span> = <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">Ping</span>()
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;使用Ping()发现Ping不同，说明数据库连接失败。&#34;</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;数据库连接成功&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// CreateTable 创建数据库中的表
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//func CreateTable() {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// sqlStr := &#34;create table studentMessage (Id integer primary key auto_increment,Name varchar(50),Age integer,Class varchar(50))&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// _, err := db.Exec(sqlStr)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// if err != nil {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//    fmt.Println(&#34;表创建失败，err：&#34;, err)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//    return
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// }
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//CloseDatabase  关闭数据库
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//func CloseDatabase() {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// err := db.Close()
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// if err != nil {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//    fmt.Println(&#34;关闭数据库出现错误，err：&#34;, err)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//    return
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// }
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// AddData 往数据库中插入数据
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">AddData</span>() {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> (
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">Id</span>    <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">Name</span>  <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">Age</span>   <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">Class</span> <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>   )
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;----------请输入学生的各项基本信息----------&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;1、请输入学生学号：&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;2、请输入学生姓名&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Name</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;3、请输入学生年龄&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Age</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;4、请输入学生班级&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Class</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">sqlStr</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;insert into student_message(Id,Name,Age,Class) values(?,?,?,?)&#34;</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">Exec</span>(<span style="color:#a6e22e">sqlStr</span>, <span style="color:#a6e22e">Id</span>, <span style="color:#a6e22e">Name</span>, <span style="color:#a6e22e">Age</span>, <span style="color:#a6e22e">Class</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;插入数据成功。&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// DeleteData 删除学生信息
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">DeleteData</span>() {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">Id</span> <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入要删除的学生Id:&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">sqlStr</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;delete from student_message where Id=?&#34;</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">Exec</span>(<span style="color:#a6e22e">sqlStr</span>, <span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;从数据中删除数据发生错误，err：&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Id为：%v的学生个人信息删除成功。\n&#34;</span>, <span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//studentMessageMenu 学生个人信息菜单
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">studentMessageMenu</span>() {
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;1、修改学生姓名&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;2、修改学生年龄&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;3、修改学生班级&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;4、修改学生全部信息&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入相应数字：&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// UpdateData 修改学生信息
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">UpdateData</span>() {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> (
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">inputNumber</span> <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">Id</span>          <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">Name</span>        <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">Age</span>         <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">Class</span>       <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>   )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;----------请选择要修改哪部分的信息----------&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">studentMessageMenu</span>()
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">inputNumber</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">switch</span> <span style="color:#a6e22e">inputNumber</span> {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入学生Id:&#34;</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入修改后的学生姓名：&#34;</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Name</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">sqlStr</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;update student_message set Name=? where Id=?&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">Exec</span>(<span style="color:#a6e22e">sqlStr</span>, <span style="color:#a6e22e">Name</span>, <span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;err:&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;学生姓名修改成功&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">2</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入学生Id:&#34;</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入修改后的学生年龄：&#34;</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Age</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">sqlStr</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;update student_message set Age=? where Id=?&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">Exec</span>(<span style="color:#a6e22e">sqlStr</span>, <span style="color:#a6e22e">Age</span>, <span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;err:&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;学生年龄修改成功&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">3</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入学生Id:&#34;</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入修改后的学生班级：&#34;</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Class</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">sqlStr</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;update student_message set Class=? where Id=?&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">Exec</span>(<span style="color:#a6e22e">sqlStr</span>, <span style="color:#a6e22e">Class</span>, <span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;err:&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;学生班级修改成功&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">4</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入学生Id:&#34;</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">sql</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;delete from student_message where Id=?&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">Exec</span>(<span style="color:#a6e22e">sql</span>, <span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;err:&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">AddData</span>()
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// LookStudentMessage 查看学生个人信息
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">LookStudentMessage</span>() {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> (
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">inputNumber</span> <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">Id</span>          <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>   )
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;----------查看学生个人信息----------&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;1、查看单个学生的信息&#34;</span>)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;2、查看所有学生的信息&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入数字：&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">inputNumber</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">switch</span> <span style="color:#a6e22e">inputNumber</span> {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;请输入要查询学生的Id:&#34;</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Scanln</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">sqlStr</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;select Id,Name,Age,Class from student_message where Id=?&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">u</span> <span style="color:#a6e22e">template</span>.<span style="color:#a6e22e">StudentMessage</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">QueryRow</span>(<span style="color:#a6e22e">sqlStr</span>, <span style="color:#a6e22e">Id</span>).<span style="color:#a6e22e">Scan</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Id</span>, <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Name</span>, <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Age</span>, <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Class</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;----------学生信息如下----------&#34;</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Id:%v\tName:%v\tAge:%v\tClass:%v\n&#34;</span>, <span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Id</span>, <span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Name</span>, <span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Age</span>, <span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Class</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;-------------------------------&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">2</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">sqlStr</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;select Id,Name,Age,Class from student_message &#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">u</span> <span style="color:#a6e22e">template</span>.<span style="color:#a6e22e">StudentMessage</span> <span style="color:#75715e">//定义一个结构体对象
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#a6e22e">rows</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">Query</span>(<span style="color:#a6e22e">sqlStr</span>) <span style="color:#75715e">//返回一个指向Rows结构体的一个指针变量。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">//非常重要，关闭rows释放持有的数据库连接。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#66d9ef">defer</span> <span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">rows</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">sql</span>.<span style="color:#a6e22e">Rows</span>) {
+</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">rows</span>.<span style="color:#a6e22e">Close</span>()
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>         }
+</span></span><span style="display:flex;"><span>      }(<span style="color:#a6e22e">rows</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">//循环读取结果集中的数据。(rows便是结果集)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">rows</span>.<span style="color:#a6e22e">Next</span>() {
+</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">rows</span>.<span style="color:#a6e22e">Scan</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Id</span>, <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Name</span>, <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Age</span>, <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Class</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>         }
+</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Id:%v\tName:%v\tAge:%v\tClass:%v\n&#34;</span>, <span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Id</span>, <span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Name</span>, <span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Age</span>, <span style="color:#a6e22e">u</span>.<span style="color:#a6e22e">Class</span>)
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>template：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">template</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// StudentMessage 数据库中的表中的信息都是StudentMessage结构体的对象
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">StudentMessage</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">Id</span>    <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">Name</span>  <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">Age</span>   <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">Class</span> <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
